@@ -1,3 +1,12 @@
+:root {
+  --clr-primary: #FF7A7A;
+  --clr-secondary: #38CC8C;
+  --clr-tertiary: #6055A5;
+  --clr-base: #B9B6D3;
+  --clr-base-dk: #3E3C49;
+  --clr-ntrl-max: #FFF;
+  --ff-primary: 'Poppins', sans-serif;
+}
 /* ========== RESET ========== */
 html {
   font-size: 62.5%;
@@ -9,6 +18,7 @@ html {
   box-sizing: inherit;
 }
 body {
+  font-family: var(--ff-primary);
   font-size: 1.6rem;
   line-height: 1.4;
 }
