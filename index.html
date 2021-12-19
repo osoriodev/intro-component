@@ -25,22 +25,22 @@
         <p class="main__info"><span>Try it free 7 days</span> then $20/mo. thereafter</p>
         <form class="logup" action="#">
           <div class="logup__content">
-            <input class="logup__input" type="text" name="fname" id="f-name" placeholder="First Name">
-            <p class="logup__error">First Name cannot be empty</p>
+            <input class="logup__input" type="text" name="firstname" id="firstname" placeholder="First Name">
+            <p class="logup__error" id="firstname-message">First Name cannot be empty</p>
           </div>
           <div class="logup__content">
-            <input class="logup__input" type="text" name="lname" id="l-name" placeholder="Last Name">
-            <p class="logup__error">Last Name cannot be empty</p>
+            <input class="logup__input" type="text" name="lastname" id="lastname" placeholder="Last Name">
+            <p class="logup__error" id="lastname-message">Last Name cannot be empty</p>
           </div>
           <div class="logup__content">
             <input class="logup__input" type="email" name="email" id="email" placeholder="Email Address">
-            <p class="logup__error"></p>
+            <p class="logup__error" id="email-message"></p>
           </div>
           <div class="logup__content">
-            <input class="logup__input" type="password" name="password" id="pass" placeholder="Password">
-            <p class="logup__error">Password cannot be empty</p>
+            <input class="logup__input" type="password" name="password" id="password" placeholder="Password">
+            <p class="logup__error" id="password-message">Password cannot be empty</p>
           </div>
-          <button class="logup__btn">Claim your free trial</button>
+          <button class="logup__btn" type="submit">Claim your free trial</button>
           <p class="logup__terms">
             By clicking the button, you are agreeing to our
             <a class="logup__link" href="#">Terms and Services</a>
