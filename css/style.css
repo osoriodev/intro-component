@@ -116,17 +116,7 @@ a {
 .logup__input::placeholder {
   color: var(--clr-helper-dk);
 }
-.logup__error {
-  display: none;
-  margin-top: .4rem;
-  text-align: end;
-  font-size: 1.1rem;
-  font-weight: 500;
-  font-style: italic;
-  color: var(--clr-primary);
-}
-.logup__error::before {
-  content: '';
+.logup__icon {
   width: 2.4rem;
   height: 2.4rem;
   display: block;
@@ -134,6 +124,16 @@ a {
   top: 1.5rem;
   right: 2.6rem;
   background: url("../assets/icon-error.svg") center / cover no-repeat;
+  visibility: hidden;
+}
+.logup__message {
+  margin-top: .4rem;
+  text-align: end;
+  font-size: 1.1rem;
+  font-weight: 500;
+  font-style: italic;
+  color: var(--clr-primary);
+  display: none;
 }
 .logup__btn {
   width: 100%;
@@ -176,7 +176,10 @@ a {
 .logup__input--warning::placeholder {
   color: transparent;
 }
-.logup__error--active {
+.logup__icon--warning {
+  visibility: visible;
+}
+.logup__message--warning {
   display: block;
 }
 
